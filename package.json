@@ -4,6 +4,7 @@
   "private": true,
   "author": "NitroCipher, SirhyperNova",
   "scripts": {
+    "start": "node src/main.js",
     "serve": "vue-cli-service serve --public $PUBLIC --port 8081",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
