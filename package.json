@@ -4,7 +4,7 @@
   "private": true,
   "author": "NitroCipher, SirhyperNova",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d src",
+    "deploy": "npm run build && gh-pages -d src -b gh-pages",
     "serve": "vue-cli-service serve --public $PUBLIC --port 8081",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
